@@ -3,7 +3,7 @@
 
 # You can set these variables from the command line.
 SPHINXOPTS    = --fail-on-warning -n -jauto
-SPHINXBUILD   = python3 -m sphinx
+SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = _build
 
