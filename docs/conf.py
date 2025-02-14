@@ -62,8 +62,13 @@ extensions = [
     "sphinx_copybutton",
     "myst_parser",
     "sphinx_wagtail_theme",
+    "sphinx_sitemap",
 ]
+sitemap_url_scheme = "{link}"
 
+html_extra_path = ['robots.txt']
+
+html_baseurl = 'https://docs.pingti.ren/wagtail/'
 autodoc_type_aliases = {
     "File": "django.core.files.File",
 }
